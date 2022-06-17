@@ -1,76 +1,124 @@
 body {
+    margin: 0%;
+    padding: 0%;
+    border: 0;
     background-color: salmon;
-    margin: auto;
+    
+
+}
+
+h2 {
     text-align: center;
-    }    
+    font-size: 35px;
+    color: antiquewhite;
+}
 
-p   {
+.herotitle {
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px  ; 
+    color: antiquewhite;       
+    }
+
+.titleh3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+img {
+    border-radius: 50%;
+     
+}
+  
+    p {
     font-size: 20px;
-    text-decoration: none;
-    background-color: salmon;
-    color: black;
-    font-family: 'cursive' ,sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;   
     font-style: italic;
-    font-weight: 800;
-    max-width: 100%;
-    } 
+    
+}    
+    
+.pictures {
+    width: 30%;
+    margin: 15px;
+    display: inline-block;  
+    vertical-align: top;
+    line-height: 35px;  
+    text-align: center;
+   
+    
+}   
 
-a   { 
-    text-align: center;   
-    background-color: black; 
-    font-size: 40px ;
-    }
-
-    h3 {font-weight: bold;
-        color: black;
-        font-size: 35px;
-        font-weight: 800; 
-        text-align: center; 
-        text-decoration: underline;  
-    }
-
-    hr {
-        border-radius: 100%;
-        padding: 1px;
-    }         
-
-    #investimentada {
-        text-decoration: underline;
-        text-align: center;
-    }
-
-    .link {  
-        border-radius: 50%;
-        text-decoration: none;
-        padding: 10px;
-        color: salmon;
-    } 
-
-    #project {
-        text-decoration: underline;
-        text-align: center;
-        color: black;        
-    }
-
-    .picture {        
-        border-radius: 50%;    
-        margin: auto;
+.ajuste {
+    width: 30%;
+   display: inline-block;
+   vertical-align: top;
+   margin: 15px;
+   line-height: 35px;
+   text-align: center;
       
-   }
-       
-    .flex {
-        display: flex;
-        flex-direction: column;
-    }
+}
+
+.ajustpictures {
+    width: 30%;
+    margin: 15px;
+    display: inline-block; 
+    vertical-align: top;
+    line-height: 35px;
+    text-align: center;
+}
+
+.ajustandofotos {
+    width: 30%;
+    margin: 15px;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 35px;      
+    text-align: center;
+}   
+
+.fundo {
+    background-image: url(https://user-image.cnft.io/projects/62796abc16aeacf0ba5db9a3_1653941031175);
+    padding: 5%;
+    
+}
+
+.ajustelink {
+    display: flex;
+    flex-direction: column;
+    text-align: center;     
+    background-color: rgb(182, 99, 92);
+    padding: 5px;
+    margin-top: 5px;
+    
+}
+
+.ajustelink a {
+    color: aliceblue;
+    font-size: 30px;
+    text-decoration: none;
+    
+}
+
+:hover a {
+    background-color: brown;
+}
+    
+
+
+
+
+
+
+    
+
+                 
+    
+    
+    
+    
         
-    .espacelines {
-        line-height: 22px;
-    }
+        
 
-    a:hover{
-        background-color: brown;
-    }  
+        
     
-    
-      
-
