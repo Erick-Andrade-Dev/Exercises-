@@ -27,7 +27,7 @@ h2 {
 }
 
 img {
-    border-radius: 50%;
+    
      
 }
   
@@ -45,6 +45,7 @@ img {
     vertical-align: top;
     line-height: 35px;  
     text-align: center;
+   
    
     
 }   
@@ -87,17 +88,20 @@ img {
     display: flex;
     flex-direction: column;
     text-align: center;     
-    background-color: rgb(182, 99, 92);
-    padding: 5px;
-    margin-top: 5px;
+    background-color: rgb(2, 2, 2);
+    margin-top: auto;
+    
+    
     
 }
 
 .ajustelink a {
-    color: black;
+     color: salmon;
     font-size: 30px;
     text-decoration: none;
+    border-radius: 100%;
     
+        
 }
 
 .border {
@@ -122,3 +126,14 @@ a:hover {
     font-weight: 900;
     
 }
+
+.borderself {
+    border-radius: 50%;
+}
+    
+
+
+
+
+             
+    
