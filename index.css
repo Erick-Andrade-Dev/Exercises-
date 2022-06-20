@@ -1,0 +1,71 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.header {
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(158, 213, 226);
+}
+
+.header nav p {
+    text-align: left;
+    padding: 10px 10px;
+    background-color: #4d9ba8;
+}
+
+nav :hover {
+    background-color: rgb(52, 180, 169);
+    border-radius: 400px;
+    color: black;
+}
+
+.list {
+    display: inline-block;
+    padding: 20px;
+    font-size: 18px;
+    justify-content: space-between;
+    
+}
+
+section {
+    background-color:rgb(40, 91, 139);
+
+}
+
+#img {
+    width: 300px;
+    border-radius: 50%;
+    
+}
+
+.footer {
+    text-align: center;
+    margin: 0x 50px;
+    background-color: rgb(8, 8, 8);
+    color: aqua;
+}
+
+.article { 
+    background-color: darkcyan;
+    font-size: 20px;
+}
+
+#imgerick {
+   border-radius: 50%;
+   
+}
+
+.aside {
+    float: right;
+    background-color: rgb(45, 109, 134);
+    font-size: 20px;
+    margin: auto;
+}
+
+
+    
+    
+
+

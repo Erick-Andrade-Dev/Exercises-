@@ -1,4 +1,4 @@
-## Exercicio1
-[GOogle](www.google.com.br)
-[NFT](https://www.jpg.store/)
-[COD GIT](https://git-scm.com/doc)
+Criação de uma página com todo conteúdo que estudei até o momento
+ultilização de html e css 
+
+
