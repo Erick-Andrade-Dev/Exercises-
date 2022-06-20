@@ -58,10 +58,10 @@ section {
 }
 
 .aside {
-    float: right;
-    background-color: rgb(45, 109, 134);
-    font-size: 20px;
-    margin: auto;
+   float: right;
+   font-size: 27px;
+   background-color: rgb(85, 135, 226);
+   font-style: italic;
 }
 
 
