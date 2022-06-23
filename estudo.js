@@ -82,16 +82,39 @@ if (lucro < 0) {
 }
 
 let salario = 3000;
-const inss = 11;
-const ir = 7.5;
+let inss = 11;
+let ir = 7.5;
+let valorDes = 142.80;
 
 let totalInss = (salario/ 100)* inss;
 console.log(totalInss);
-salario = totalInss;
-console.log(totalInss)
+salario = salario - totalInss;
+console.log(salario);
 
-let salarioInss = (salario - totalInss)
-console.log(salarioInss);
+let totalIr =(salario/ 100)* ir;
+console.log(totalIr)
+
+let descontos = (totalIr - valorDes);
+console.log(descontos)
+
+let valorfinal = (salario - descontos);
+console.log(valorfinal);
+
+let cardapio = ["Peixe", "Carne", "Frango"];
+let indexOfCarne = cardapio.indexOf("Carne") ;
+let cardapioCarne = cardapio[1];
+cardapio.push("Salsicha")
+
+console.log("Menu de acompanhamentos: ", cardapio);
+console.log(cardapioCarne);
+console.log(indexOfCarne);
+
+
+
+
+
+
+
 
 
 
