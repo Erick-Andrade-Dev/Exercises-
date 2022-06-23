@@ -60,9 +60,61 @@ console.log(isEven)
 
 const compra = 50;
 const venda = 100;
+const imposto = 20;
+const lucro = 40000;
 
-console.log (compra % 20)
-console.log (venda - 10 + 50)
+const result = (compra/100)* imposto;
+console.log(result)
+
+const valorcompra = (compra + 10);
+console.log(valorcompra)
+
+const valorvenda = (venda - 60);
+console.log(valorvenda)
+
+const ganho = (valorvenda * 1000);
+console.log(ganho)
+
+if (lucro < 0) {
+    console.log("Error")
+} else {
+    console.log("We achieved")
+}
+
+let salario = 3000;
+const inss = 11;
+const ir = 7.5;
+
+let totalInss = (salario/ 100)* inss;
+console.log(totalInss);
+salario = totalInss;
+console.log(totalInss)
+
+let salarioInss = (salario - totalInss)
+console.log(salarioInss);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

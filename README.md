@@ -1,2 +1,1 @@
-# Exercises-
-Estudo
+Introdução ao estudo de JavaScript
