@@ -1,3 +1,5 @@
+//INTRODUÇÃO JS - OPERAÇÕES MATEMATICAS/IF-ELSE/SWITCH CASE
+
 const valor1 = 5;
 const valor2 = 10;
 
@@ -100,6 +102,7 @@ console.log(descontos)
 let valorfinal = (salario - descontos);
 console.log(valorfinal);
 
+//JAVA SCRIPT ARRAYS E FOR 
 let cardapio = ["Peixe", "Carne", "Frango"];
 let indexOfCarne = cardapio.indexOf("Carne") ;
 let cardapioCarne = cardapio[1];
@@ -132,18 +135,41 @@ if (dividir > 25) {
 } else{
     console.log("menor que 25")
 }
+let n =  [9, 7, 5, 10, 15, 50, 35];
+let numeroMaior = 0;
+for (i = 0; i < n.length; i += 1)  {
+ if ( numeroMaior < n[i])
+   numeroMaior = n[i]
 
-for (let n = 0; n < numbers.length; n =+1); {
-    console.log(n)
+}
+console.log(numeroMaior)
+
+let somaNumero = [9, 7, 5, 10, 15, 50, 35];
+let somatorio = 0;
+
+for (let i  = 0; i < somaNumero.length; i += 1) {
+    somatorio += somaNumero[i];
+}
+
+console.log(somatorio)
+
+if (somatorio > 100) {
+    console.log("Wins");
+} else {
+    console.log('Loser')
 }
 
 
+let menor =  [9, 7, 5, 10, 15, 50, 35];
+let numeroMenor = 1000;
 
+for (i = 0; i < menor.length; i += 1) {
+    if (numeroMenor > menor[i] )
+    numeroMenor = menor[i];
+}
+console.log(numeroMenor)
 
-
-
-
-
+//JAVA SCRIPT LÓGICA DE PROGRAMAÇÃO E ALGORITMOS
 
 
 
