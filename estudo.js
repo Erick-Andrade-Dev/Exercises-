@@ -171,6 +171,38 @@ console.log(numeroMenor)
 
 //JAVA SCRIPT LÓGICA DE PROGRAMAÇÃO E ALGORITMOS
 
+let fatorial= 10;
+let resultadoFatorial = fatorial; 
+
+for (i= 1; i < fatorial; i += 1) {
+    resultadoFatorial *= i;
+}
+console.log(resultadoFatorial);
+
+let invert = "javascript";
+
+invert = invert.split('').reverse('').join('');
+
+console.log(invert);
+
+let maiorPalavra = ["html", "css", "javascript"];
+
+let resultadoMaior = maiorPalavra.sort()[0].reverse()
+
+console.log(resultadoMaior)
+
+console.log(maiorPalavra[2].length);
+
+
+
+
+
+
+
+
+
+
+
 
 
 
