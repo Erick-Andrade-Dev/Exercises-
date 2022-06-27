@@ -187,11 +187,17 @@ console.log(invert);
 
 let maiorPalavra = ["html", "css", "javascript"];
 
-let resultadoMaior = maiorPalavra.sort()[0].reverse()
+let resultadoMaior = maiorPalavra.sort()[maiorPalavra.length -1]
 
 console.log(resultadoMaior)
 
-console.log(maiorPalavra[2].length);
+let menorPalavra = ["html", "css", "javascript"];
+
+let resultadoMenor = menorPalavra.sort()[0];
+
+console.log(resultadoMenor)
+
+
 
 
 
