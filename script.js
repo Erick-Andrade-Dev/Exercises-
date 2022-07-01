@@ -1,19 +1,30 @@
-document.getElementById("title").innerText = 'Animes'
-console.log(document.getElementById("paragrafo").innerHTML);
+document.getElementsByClassName("section")[2].innerHTML = 'É da cor dos seus olhos...'
 
-document.getElementById("paragrafo").innerText = 'Vamos assistir!'
+document.querySelector(".title").style.backgroundColor = "pink"
 
-document.getElementsByClassName("animes")[0].innerText = "Cavaleiros dos Zodiacos"
+document.getElementsByTagName("h1")[0].innerHTML = 'BR Rock '
 
-let animes = document.getElementsByClassName("animes");
-for (i = 0; i < animes.length; i += 1) {
-    animes[i].innerText = "Naruto"
+document.getElementsByTagName("h1")[1].innerHTML = "Trechos";
+
+document.getElementsByTagName("h1")[1].style.backgroundColor = "green";
+
+document.getElementById("cantor").style.backgroundColor = "blue";
+
+
+///////////////////////////////////////////////////////////////////////////////////
+let trechos = document.getElementsByTagName("p");
+for (let index = 0; index < trechos.length; index++) {
+     trechos[index].classList.add("upercase")
 }
 
-document.getElementsByClassName("animes")[1].innerText = "Arcane";
 
-document.getElementsByClassName("animes")[2].innerText = "Dota";
 
-document.getElementsByTagName("div")[0].innerText = "7 Pecados Capitais";
 
-document.getElementsByTagName("span")[0].innerText = "Death Note"
+
+
+
+
+
+    
+ 
+
