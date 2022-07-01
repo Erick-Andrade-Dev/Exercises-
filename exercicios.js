@@ -111,3 +111,18 @@ let leitor = {
   console.log(leitor.nome, ' tem 2 livros favoritos ', leitor.livrosFavoritos);
 
   //console.log('O livro da ', leitor.nome, ' se chama ', leitor.livrosFavoritos[0].titulo)
+
+  //EXERCICIOS DE FUNÇÕES 
+
+  let palidromo = 'arara';
+  let palidromoconfir = palidromo.split('').reverse('').join('');
+  
+  if (palidromo == palidromoconfir) {
+    console.log(true)
+  } else {
+    console.log(false)
+  }
+  
+ console.log(palidromoconfir);
+  
+   
