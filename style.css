@@ -1,0 +1,21 @@
+.title {
+    text-align: center;
+    border: 10px solid rgb(71, 0, 0);
+}
+.section {
+    font-size: 20px;
+    font-weight: 600;
+    border: 10px solid rgb(192, 66, 66);
+}
+
+#cantor {
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(37, 5, 5);
+    font-style: italic;
+    color: aliceblue;
+}
+
+.upercase {
+    text-transform: uppercase;
+}
