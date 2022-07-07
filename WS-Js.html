@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Storage</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.google.com/">
 </head>
 <body>   
 
@@ -28,7 +29,21 @@
     <input type="number" name="font-size" id="" min="1">
    
 
-    <p >Nord Electro 3 vêm em dois tamanhos diferentes: com 61 teclas e com 73, ambos tem o mesmo mecanismo de teclado semi-pesada, perfeita para tocar piano, e também com perfill Waterfall (sem aquela parte saliente na frente da tecla), que permite tocar timbres de órgão com técnica mais apropriada, sem ser incômodo.</p>
+    <p id="textP">Nord Electro 3 vêm em dois tamanhos diferentes: com 61 teclas e com 73, ambos tem o mesmo mecanismo de teclado semi-pesada, perfeita para tocar piano, e também com perfill Waterfall (sem aquela parte saliente na frente da tecla), que permite tocar timbres de órgão com técnica mais apropriada, sem ser incômodo.</p>
+
+   <select name="Style" id="fontStyle">
+
+    <option value="Arial">Arial</option>
+    <option value="serif">Serif</option>
+    <option value="sans-serif">Sans-serif</option>
+    <option value="Helvetica">Helvetica</option>
+    <option value="Roboto">Roboto</option>
+    <option value="Oxygen">Oxygen</option>
+
+   </select>
+    
+   <input type="number" name="font-space" id="" min="1">   
+  
 
     <script src="WS-Js.js"></script>
 </body>
